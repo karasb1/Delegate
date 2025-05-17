@@ -10,9 +10,9 @@
             DelCalculate del2 = new DelCalculate(Subtract);
             DelCalculate del3 = new DelCalculate(Multiply);
             
-            Console.WriteLine("Addition: " + del(10, 20));
-            Console.WriteLine("Subtraction: " + del2(20, 10));
-            Console.WriteLine("Multiplication: " + del3(10, 20));
+            Console.WriteLine("Addition: " + del.Invoke(10, 20));
+            Console.WriteLine("Subtraction: " + del2.Invoke(20, 10));
+            Console.WriteLine("Multiplication: " + del3.Invoke(10, 20));
         }
         public static int Add(int a, int b)
         {
