@@ -1,4 +1,4 @@
-﻿namespace Interfaces;
+﻿namespace Delegate;
 
 class Program
 {
